@@ -38,7 +38,7 @@ function App() {
               color="primary"
               onClick={handleLearnMoreClick} // Add click handler
             >
-              Learn More ⬇
+              Learn More
             </Button>
           </div>
         </div>
