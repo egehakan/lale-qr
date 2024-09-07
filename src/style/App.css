@@ -1,0 +1,51 @@
+.ArtistDescHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ArtistDesc {
+    margin-top: 3vh;
+}
+
+.Divider {
+    border-color: #e9273170 !important;
+}
+
+.LearnMore {
+    background-color: #e92731 !important;
+    box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12) !important;
+    --variant-textColor: #e92731 !important;
+    --variant-outlinedColor: #e92731 !important;
+    --variant-outlinedBorder: #e92731 !important;
+}
+
+.App-header {
+    display: flex;
+    justify-content: center;
+    /* This centers the content horizontally */
+    align-items: center;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    /* Adds space between the icon and the title */
+}
+
+.header-icon {
+    width: 50px;
+    /* Set the size of your icon */
+    height: 50px;
+    margin-bottom: 1.02em;
+}
+
+.ArtDesc-container {
+    padding: 20px 0 !important;
+}
+
+.Location {
+    color: #ffffff94;
+    text-align: right;
+}
