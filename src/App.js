@@ -1,7 +1,6 @@
 import React, { useRef } from 'react';
 import ModelViewer from './ModelViewer';
 import './style/App.css';
-import Typography from '@mui/material/Typography';
 import { Button } from '@mui/material';
 import Divider from '@mui/material/Divider';
 import Title from './Title';
