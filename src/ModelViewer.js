@@ -15,7 +15,7 @@ const ModelViewer = ({ modelUrl }) => {
                 <primitive object={scene} scale={[1.5, 1.5, 1.5]} /> 
 
                 <OrbitControls
-                    enableZoom={false}
+                    enableZoom={true}
                     maxPolarAngle={Math.PI / 2}
                     minPolarAngle={Math.PI / 2} />
             </Canvas>
